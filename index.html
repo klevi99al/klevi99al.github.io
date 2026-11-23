@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Klevi Alushi | Game Developer</title>
+  <meta name="description" content="Klevi Alushi is a game developer working in Unreal Engine and Unity, focused on gameplay programming and level design.">
+  <meta property="og:title" content="Klevi Alushi | Game Developer">
+  <meta property="og:description" content="Gameplay programming and level design in Unreal Engine and Unity.">
+  <meta property="og:image" content="https://klevi99al.github.io/images/lost-chronology/01.webp">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230d0d0c'/%3E%3Crect x='8' y='8' width='16' height='16' fill='none' stroke='%23e5392b' stroke-width='3'/%3E%3Cpath d='M16 3v26M3 16h26' stroke='%23e5392b' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#work">Skip to projects</a>
+
+  <header class="nav">
+    <a class="nav__file" href="#top"><span class="nav__mark" aria-hidden="true"></span>zm_klevi.map</a>
+    <nav aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="hero" data-entity="info_player_start">
+      <canvas id="game" aria-hidden="true"></canvas>
+
+      <div class="hud" aria-hidden="true">
+        <div class="hud__tally" id="tally"></div>
+        <div class="hud__score"><span id="score">0</span> pts</div>
+        <div class="hud__msg" id="hudMsg">Click a red entity to play</div>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow">Game developer / Unreal Engine and Unity</p>
+        <h1>Klevi<br>Alushi</h1>
+        <p class="hero__lede">I program gameplay and build levels. Horror on Steam, shooters and puzzlers on mobile, and Call of Duty Zombies maps published for the community.</p>
+        <div class="hero__cta">
+          <a class="btn btn--solid" href="#work">See the work</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <ul class="facts" aria-label="Highlights">
+      <li><strong>5+</strong> years making games professionally</li>
+      <li><strong>Steam, Play, App Store</strong> titles shipped</li>
+      <li><strong>3rd place</strong> Game Jam Albania 3.0</li>
+      <li><strong>MSc</strong> Computer Science</li>
+    </ul>
+
+    <section class="feature" id="featured" data-entity="misc_prefab">
+      <div class="wrap">
+        <p class="ent">misc_prefab <span>// current project</span></p>
+        <h2>Lost Chronology</h2>
+        <div class="feature__grid">
+          <div class="feature__copy">
+            <p class="feature__hook">You are not being chased.<br>You are being confronted.</p>
+            <p>A first-person psychological horror puzzle game about memory, guilt, and denial. You wake up sick and alone, your child is missing, and the search leads to an abandoned school where puzzles unlock doors and pieces of your past.</p>
+            <p>At 3rd Gaming Studios I handle gameplay programming and level design in Unreal Engine 5 Blueprints, including puzzle progression, interactions, and enemy behaviour that supports the story told through the environments.</p>
+            <div class="feature__links">
+              <a class="btn btn--solid" href="https://store.steampowered.com/app/4268250/Lost_Chronology/" target="_blank" rel="noopener">View on Steam</a>
+              <button class="btn" type="button" data-open="RKRAWm">Open gallery</button>
+            </div>
+          </div>
+          <button class="feature__art" type="button" data-open="RKRAWm" aria-label="Open Lost Chronology gallery">
+            <img src="images/lost-chronology/01.webp" alt="Lost Chronology screenshot" width="1920" height="1080" loading="lazy">
+            <img src="images/lost-chronology/02.webp" alt="" width="1920" height="1080" loading="lazy">
+            <img src="images/lost-chronology/03.webp" alt="" width="1920" height="1080" loading="lazy">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work" data-entity="script_brushmodel">
+      <div class="wrap">
+        <div class="head">
+          <div>
+            <p class="ent">script_brushmodel <span>// selected work</span></p>
+            <h2>Everything I've shipped, modded, and jammed</h2>
+          </div>
+          <button class="egg" type="button" data-egg="1" aria-label="Hidden object"></button>
+        </div>
+        <div class="filters" role="group" aria-label="Filter projects" id="filters"></div>
+        <div class="grid" id="grid"></div>
+        <noscript><p>Browse every project on <a href="https://www.artstation.com/klevi">ArtStation</a>.</p></noscript>
+      </div>
+    </section>
+
+    <section class="xp" id="experience" data-entity="info_notnull">
+      <div class="wrap">
+        <p class="ent">info_notnull <span>// experience</span></p>
+        <h2>Where I've worked</h2>
+        <ol class="timeline">
+          <li>
+            <div class="timeline__when">09/2024 to now</div>
+            <div>
+              <h3>Game Developer <em>3rd Gaming Studios, Tirana</em></h3>
+              <p class="timeline__stage">Unreal Engine 5, 2025 to now</p>
+              <p>Gameplay logic and level design for Lost Chronology, a singleplayer first-person horror puzzle game on Steam.</p>
+              <p class="timeline__stage">Unity mobile, 2024 to 2025</p>
+              <ul>
+                <li>Built player mechanics, AI logic, and UI across Undead Army, ChronoArcher, and CeleBallz.</li>
+                <li>Designed and built every level across those titles.</li>
+                <li>Optimised performance for low-end mobile devices and PCs.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="timeline__when">03/2021 to 02/2024</div>
+            <div>
+              <h3>Unity Developer <em>Crystal System, Durrës</em></h3>
+              <p>Worked on 3D EDV, an app that teaches students finance, economics, and step-by-step business workflows in interactive 3D.</p>
+              <ul>
+                <li>Generated the environment dynamically from data in the company database.</li>
+                <li>Added voice commands with speech-to-text, then text-to-speech and an AI assistant.</li>
+                <li>Shipped a WebGL build so the app runs in the browser with no download.</li>
+                <li>Built an AR version for showcases and demos.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="timeline__when">2022 and 2023</div>
+            <div>
+              <h3>Game Developer, part-time <em>Division5, Tirana</em></h3>
+              <p>Built interactive 3D web experiences with BabylonJS and TypeScript inside React front ends.</p>
+            </div>
+          </li>
+        </ol>
+        <button class="egg egg--xp" type="button" data-egg="2" aria-label="Hidden object"></button>
+      </div>
+    </section>
+
+    <section class="about" id="about" data-entity="worldspawn">
+      <div class="wrap about__grid">
+        <div class="about__who">
+          <img src="images/avatar.jpg" alt="Portrait of Klevi Alushi" width="320" height="320" loading="lazy">
+          <div>
+            <p class="ent">worldspawn <span>// about</span></p>
+            <h2>I learned level design by making Zombies maps</h2>
+            <p>Before games were my job, I was building custom Call of Duty Zombies maps in Radiant, scripting them in GSC and publishing them on UGX-Mods. One of them took about two years, ending in a full Easter egg quest and a boss fight.</p>
+            <p>That habit stuck. I like owning a mechanic from the first prototype to the moment a player gets it, whether that's a puzzle in Unreal or a merge game on a low-end phone.</p>
+            <p class="about__where">Based in Durrës, Albania. Albanian native, English C1.</p>
+          </div>
+        </div>
+        <dl class="loadout">
+          <div><dt>Engines</dt><dd>Unreal Engine 5 (Blueprints), Unity (2D, 3D, mobile, WebGL, AR), BabylonJS, Radiant</dd></div>
+          <div><dt>Languages</dt><dd>C#, TypeScript, JavaScript, GSC</dd></div>
+          <div><dt>Web</dt><dd>React, HTML, CSS</dd></div>
+          <div><dt>Tools</dt><dd>Visual Studio, Blender, Maya, Paint.NET, Audacity</dd></div>
+          <div><dt>Focus</dt><dd>Gameplay programming, enemy AI, UI, level design, mobile optimisation</dd></div>
+          <div><dt>Education</dt><dd>Master's in Computer Science (2021 to 2024) and Bachelor's in IT and English (2018 to 2021), Aleksandër Moisiu University. Exchange semester at Mälardalen University, Sweden.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" data-entity="trigger_use">
+      <div class="wrap">
+        <p class="ent">trigger_use <span>// contact</span></p>
+        <h2><a href="mailto:klevi.99al@gmail.com">Press F<br>to say hello</a></h2>
+        <p class="contact__mail"><a href="mailto:klevi.99al@gmail.com">klevi.99al@gmail.com</a></p>
+        <ul class="contact__links">
+          <li><a href="https://www.artstation.com/klevi" target="_blank" rel="noopener">ArtStation</a></li>
+          <li><a href="https://www.linkedin.com/in/klevi-alushi-96a489208" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://klevi99.itch.io" target="_blank" rel="noopener">itch.io</a></li>
+          <li><a href="https://www.youtube.com/channel/UC5yp4-3u3vDgrV1tUL5F05Q" target="_blank" rel="noopener">YouTube</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>Klevi Alushi</span>
+    <span class="foot__hint">Three objects are hidden on this page.
+      <button class="egg egg--foot" type="button" data-egg="3" aria-label="Hidden object"></button>
+    </span>
+  </footer>
+
+  <div class="status" aria-hidden="true">
+    <span id="coords">x: 0.0  y: 0.0  z: 0.0</span>
+    <span id="entity">entity: info_player_start</span>
+    <span id="eggs">objects: 0/3</span>
+    <span class="status__right">G:16  L:ON</span>
+  </div>
+
+  <dialog class="modal" id="modal" aria-labelledby="mTitle">
+    <button class="modal__close" type="button" id="mClose" aria-label="Close project">Close</button>
+    <div class="modal__media">
+      <img id="mImg" alt="">
+      <button class="modal__arrow modal__arrow--l" type="button" id="mPrev" aria-label="Previous image"></button>
+      <button class="modal__arrow modal__arrow--r" type="button" id="mNext" aria-label="Next image"></button>
+      <div class="modal__thumbs" id="mThumbs"></div>
+    </div>
+    <div class="modal__info">
+      <p class="ent" id="mTag"></p>
+      <h2 id="mTitle"></h2>
+      <p class="modal__role" id="mRole"></p>
+      <p id="mBlurb"></p>
+      <ul class="tools" id="mTools"></ul>
+      <div class="modal__links" id="mLinks"></div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
